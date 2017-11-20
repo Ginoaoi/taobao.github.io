@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <style>
+      .wrapper 
+      {
+          margin:0 auto;}
+        .search
+{
+    height: 32px;
+	width:539px;
+    border-color: orangered orangered orangered orangered;
+    margin-top: 30px;
+
+}
+.image{
+    float: left;
+    width: 120px;
+    height: 50px;
+}
+        .submit{
+            display: inline-block;
+            position: relative;
+            width: 100px;
+            height: 34px;
+            right: 6px;
+            color: white;
+            background-color:orangered;
+            font-size: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .fenlei
+        {
+            margin-top:100px;
+            margin-left: 20px;
+            width: 100%;
+            height:200px;
+        }
+        th {
+            width:40px;
+            height: 50px;
+            color: orange;
+        }
+        td {
+            width: 50px;
+        }
+        caption {
+            height: 30px;
+            text-align: center;
+            background-color: red;
+        }
+        .chaolianjie {
+            margin-top: 20px;
+            font-size: 10px;
+            color: gray;
+            text-align: left;
+            text-decoration: none;
+        }
+        a.chaolianjie:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        .shuipinul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px; 
+            width: auto;
+        }
+        .shuipinli{
+            float:left;
+        }
+        .dropbtn {
+            background-color: white;
+            color:black;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            margin-left: 50px;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+        
+        .dropdown-content a {
+            color:red;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover 
+        {
+            background-color:orangered;
+            color:white;
+       }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown:hover .dropbtn {
+            background-color: #7e7a79;
+        }
+
+        .photo1{
+            width: 450px;
+            height:300px;
+        }
+        .photo2{
+            width: 300px;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="parent" style="text-align:center;">
+            <div class="image" style="display:inline;">
+                <img src="./1.png" /> 
+            </div>
+            <div style="display:inline;">
+                <form>
+                    <div>
+                <input type="text" name="search" class="search"/>
+                <input type="submit" value="搜索"  class="submit"/></div>
+                <a class="chaolianjie" href="https://cart.taobao.com/cart.htm?spm=a231o.7076277.1997525049.1.628fab2bFJWQa9&prepvid=200_11.224.194.90_306_1510916272073&from=mini&pm_id=1501036000a02c5c3739&pid=mm_10011550_0_0&app_pvid=200_11.224.194.90_306_1510916272073">秋裤</a>
+                </form>
+            </div>
+        </div>
+            <div class="fenlei">
+                <ul class="shuipinul">
+                    <li class="shuipinli" style="width:200px;">
+            <table border="0">
+                <caption>劲爆推荐 super返场</caption>
+                <tr>
+                <tr>
+                    <th rowspan="2" >女装</th>
+                    <td>长裤</td>
+                    <td>风衣</td>
+                </tr>
+                <tr>
+                    <td>&nbsp</td>
+                    <td>&nbsp</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">男装</th>
+                    <td>外套</td>
+                    <td>袜子</td>
+                </tr>
+                <tr>
+                        <td>&nbsp</td>
+                        <td>&nbsp</td>
+                    </tr>
+                </tr>
+            </table>
+                    </li>
+                    <li class="suipinli">
+                        <div>
+                        <div class="dropdown">
+                            <button class="dropbtn">9.9疯抢</button>
+                            <div class="dropdown-content">
+                              <a href="#">全场9.9</a>
+                              <a href="#">20元封顶</a>
+                              <a href="#">50元好货</a>
+                            </div>
+                            <hr>
+                          </div>
+                          <div>
+                              <div>
+                              <img src="./2.jpg" class="photo1"/>
+                              <img src="./3.jpg" class="photo1" style="margin-left:0%"/>
+                              </div>
+                              <div style="margin-left:200px;">
+                                  <img src="./4.png" class="photo2"/>
+                                  <img src="./5.jpg" class="photo2"/>
+                                  <img src="./6.jpeg" class="photo2"/>
+                              </div>
+                          </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+</body>
+</html>
